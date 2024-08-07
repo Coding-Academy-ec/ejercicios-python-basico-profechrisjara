@@ -5,25 +5,28 @@
 # if __name__ == "__main__":
 #     imprimir_nombre
 
-# 2 Escribe un programa que calcule la suma de los números del 1 al 10.
-def suma_1_al_10():
-    suma = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
-    return suma #se devuelve el resultado de la suma
-
-if __name__ == "__main__":
-    resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
-    suma = suma_1_al_10 # Se imprime el resultado de la suma
-
-# # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
-# def imprimir_datos_personales(nombre, edad, estatura):
-#     # Se imprimen en pantalla los datos personales recibidos como argumentos
+# # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
+# def suma_1_al_10():
+#     suma = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
+#     return suma #se devuelve el resultado de la suma
 
 # if __name__ == "__main__":
-#     # Se definen las variables con los datos personales
-#     nombre = "Tu nombre"
-#     edad = 30
-#     estatura = 1.75
-#     # Se llama a la función imprimir_datos_personales() para mostrar los datos
+#     resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
+#     suma = suma_1_al_10 # Se imprime el resultado de la suma
+
+# 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
+def imprimir_datos_personales(nombre, edad, estatura):
+    # Se imprimen en pantalla los datos personales recibidos como argumentos
+    print("nombre:", nombre)
+    print("edad:", edad)
+    print("estatura:", estatura)
+
+if __name__ == "__main__":
+    # Se definen las variables con los datos personales
+        nombre = "Christopher Jara"
+        edad = 38
+        estatura = 1.73
+        imprimir_datos_personales(nombre, edad, estatura)
 
 # # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
 # def par_o_impar(numero):
