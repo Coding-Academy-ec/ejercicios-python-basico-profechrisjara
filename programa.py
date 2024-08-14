@@ -28,16 +28,17 @@ if __name__ == "__main__":
         estatura = 1.73
         imprimir_datos_personales(nombre, edad, estatura)
 
-# # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
-# def par_o_impar(numero):
-#     # Se verifica si el número es divisible por 2
-#         # Si es divisible, se devuelve "par"
-#     else:
-#         # Si no es divisible, se devuelve "impar"
+# 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
+def par_o_impar(numero):
+    if numero % 2 == 0:  # Se verifica si el número es divisible por 2
+        return "par"  # Si es divisible, se devuelve "par"
+        
+    else:
+        return "impar"  # Si no es divisible, se devuelve "impar"
 
-# if __name__ == "__main__":
-#     num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
-#     print(par_o_impar(num))  # Se imprime si el número ingresado es par o impar
+if __name__ == "__main__":
+    num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
+    print(par_o_impar(num))  # Se imprime si el número ingresado es par o impar
 
 # # 5 Crea una función que calcule el área de un círculo dado su radio.
 # import math
