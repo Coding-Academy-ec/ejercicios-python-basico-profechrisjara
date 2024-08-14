@@ -23,10 +23,10 @@ def imprimir_datos_personales(nombre, edad, estatura):
 
 if __name__ == "__main__":
     # Se definen las variables con los datos personales
-        nombre = "Christopher Jara"
-        edad = 38
-        estatura = 1.73
-        imprimir_datos_personales(nombre, edad, estatura)
+    nombre = "Christopher Jara"
+    edad = 38  # Cambia esto por tu edad
+    estatura = 1.73  # Cambia esto por tu estatura
+    imprimir_datos_personales(nombre, edad, estatura)
 
 # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
 def par_o_impar(numero):
